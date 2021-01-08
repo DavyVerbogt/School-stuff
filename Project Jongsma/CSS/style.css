@@ -1,0 +1,85 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+}
+
+pre {
+    font-family: monospace;
+    white-space: pre;
+    text-align: center;
+}
+
+
+
+ul.sidenav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+ul.sidenav li a {
+    color: white;
+    text-decoration: none;
+}
+
+ul.sidenav li a.active {
+    background-color: #4CAF50;
+}
+
+ul.sidenav li a:hover:not(.active) {
+    background-color: #555;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1380px) {
+
+    .table-row,
+    .table-header {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .table-row,
+    .table-header,
+    .panel {
+        margin-left: -10px;
+        margin-right: 20px;
+        text-align: center;
+    }
+}
+
+ul.sidenav li a {
+    float: left;
+    padding: 15px;
+}
+
+.hero {
+
+    margin: 0;
+    padding: 100px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cdn.fodors.com/wp-content/uploads/2017/09/Road-Trips-Cabot-Trail.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    color: white;
+}
